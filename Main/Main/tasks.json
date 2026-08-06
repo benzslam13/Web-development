@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Open in Chrome",
+            "type": "shell",
+            "command": "open",
+            "args": [
+                "-a",
+                "Google Chrome",
+                "https://mc.s12.exacttarget.com/cloud/#app/Marketing%20Cloud%20Dashboard"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
+
