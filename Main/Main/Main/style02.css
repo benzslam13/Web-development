@@ -1,0 +1,45 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(29, 5, 5);
+    background-image: url(image/car2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position: center; */
+}
+a{
+    color: rgb(236, 232, 232);
+}
+h1{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: aqua;
+}
+.part1{
+    display: inline-block;
+    opacity: 0.8;
+}
+.part1:hover,h1:hover{
+    opacity: 1;
+}
+#chatgpt{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+#benzp{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.1;
+}
+#benzp:hover{
+    opacity: 0.4;
+}
+
